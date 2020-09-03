@@ -20,7 +20,7 @@ app.get('/weather', (req, res) => {
 }) 
 
 app.get('*', (req, res) => {
-    res.send('404 Not Found!')
+    res.send('404 Page Not Found!')
 }) 
 
 app.listen(3000, () => {
